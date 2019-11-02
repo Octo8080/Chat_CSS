@@ -1,0 +1,44 @@
+.container {
+  background-color: #E6E6FA;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px; }
+  .container .room .day {
+    margin: 0 auto;
+    width: 100px; }
+    .container .room .day .title {
+      text-align: center;
+      padding: 2px;
+      font-size: 10px;
+      line-height: 14px;
+      border-radius: 7px;
+      background-color: #CFCFDF;
+      min-height: 14px; }
+  .container .room .other .icon {
+    float: left;
+    max-width: 40px;
+    border-radius: 50%;
+    margin-left: 5px; }
+  .container .room .other .say {
+    margin-right: 80px;
+    margin-left: 50px;
+    float: none;
+    min-height: 40px;
+    background-color: #FFFFFF;
+    padding: 7px;
+    border-radius: 10px;
+    word-wrap: break-word; }
+  .container .room .self .icon {
+    float: right;
+    max-width: 40px;
+    border-radius: 50%;
+    margin-right: 5px; }
+  .container .room .self .say {
+    margin-right: 50px;
+    margin-left: 80px;
+    float: none;
+    min-height: 40px;
+    background-color: #98FB98;
+    padding: 7px;
+    border-radius: 10px;
+    word-wrap: break-word; }
